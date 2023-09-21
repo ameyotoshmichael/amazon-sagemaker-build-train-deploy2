@@ -1,8 +1,8 @@
 import boto3
 import yaml
 
-networking_stack = ""
-sagemaker_stack = ""
+networking_stack = "networking-stack"
+sagemaker_stack = "sagemaker-stack"
 
 cf_client = boto3.client('cloudformation')
 
